@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_blue">#1683D8</color>
+    <color name="brand_blue_dark">#0F5FA3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offline_text">#1A2733</color>
+    <color name="offline_subtext">#5B6B79</color>
+</resources>

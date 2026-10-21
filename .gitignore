@@ -1,0 +1,22 @@
+# Local SDK/JDK paths — machine-specific, never shared.
+local.properties
+
+# Signing — never commit keys, keystores or passwords.
+*.jks
+*.keystore
+keystore.properties
+
+# Build output.
+.gradle/
+build/
+app/build/
+*.apk
+*.aab
+
+# IDE (project builds from the CLI, but don't fight an IDE if someone opens it).
+.idea/
+*.iml
+.DS_Store
+
+# Gradle wrapper distribution cache, if anyone runs gradle locally outside the wrapper.
+.kotlin/

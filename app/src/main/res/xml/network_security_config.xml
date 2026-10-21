@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- HTTPS only, everywhere. The portal is only ever loaded over https:// and mixed
+         content is blocked in the WebView as well (belt and suspenders). -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

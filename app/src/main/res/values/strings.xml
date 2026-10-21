@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GenieLock Customer</string>
+    <string name="portal_url">https://my.gadgetgenie.org/portal</string>
+    <string name="portal_host">my.gadgetgenie.org</string>
+    <string name="offline_title">No internet connection</string>
+    <string name="offline_subtitle">GenieLock Customer needs an internet connection to load your account. Check your mobile data or Wi-Fi and try again.</string>
+    <string name="retry">Retry</string>
+    <string name="ua_suffix"> GenieLockCustomerAndroid/1.0</string>
+</resources>

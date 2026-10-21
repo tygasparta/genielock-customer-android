@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Main app theme: fixed blue & white brand, not DayNight — the portal itself has no
+         dark variant, so we keep the native chrome (status/nav bars, splash) consistent. -->
+    <style name="Theme.GenieLockCustomer" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_blue</item>
+        <item name="colorPrimaryDark">@color/brand_blue_dark</item>
+        <item name="colorAccent">@color/brand_blue</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/brand_blue</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/white</item>
+    </style>
+
+    <!-- Splash theme per the androidx core-splashscreen contract: this is what the Activity's
+         manifest entry points at; installSplashScreen() reads these attributes, and on API 31+
+         the platform SplashScreen API renders it natively. -->
+    <style name="Theme.GenieLockCustomer.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.GenieLockCustomer</item>
+    </style>
+
+</resources>
